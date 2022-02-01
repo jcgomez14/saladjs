@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>	
+	<title>MUCHAS GRACIAS POR TU COMPRA</title>
+</head>
+<body>
+<header>
+	<nav>
+		<div class="header">
+			<ul>
+				<li><a href="index.html"><img class="logo" src="media/logosalad.png" width="10%"></img></a></li>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#shop">Shop</a></li>
+				<li><a href="cuenta.html">Registrarse</a></li>
+				<li><a href="#modal" rel="modal:open"><img class="btnCarrito" src="media/carrito.png" width="30%"></a></img></li>
+			</ul>
+		</div>
+	</nav>	
+</header>
+<div>
+		<h2 class="texto">Segui tu instinto.<br>
+			Salad salad.<br>
+			Se vos.</h2>
+</div>	
+<main class="productos">
+    <form>
+      <div class="form">
+          <label>NOMBRE</label>
+            <input name="nombre" id="nombre"></input> 
+        </div>
+        <div class="form">
+            <label>APELLIDO</label>
+              <input name="apellido" id="apellido"></input> 
+          </div>
+          <div class="form">
+            <label>DNI - CEDULA</label>
+              <input name="email" id="dni"></input> 
+          </div>
+          <div class="form">
+            <label>N° TARJETA</label>
+              <input name="tarjeta" id="tarjeta"></input> 
+          </div>
+          <div class="form">
+            <label>DIRECCION DE ENTREGA</label>
+            <input name="direccion" id="direccion"></input>
+          </div>
+          <div class="form">
+			<a href="#modalPago" rel="modal:open"> <button class="btnPagar" id="btnPago">PAGAR</button></a>
+          </div>
+  </form>
+</main>
+
+<div id="modal" class="modal">
+	<h4>TU CARRITO</h4>
+	<table>
+		<tbody id="carrito">
+			<tr>
+				<td class=""></td>
+				<td class=""></th> 
+			</tr>
+		</tbody>
+	</table>
+	<a href="#" rel="modal:close"></a>
+</div>
+
+
+<div id="modalPago" class="modal">
+	<h3 class="tituloCarrito">¡Muchas Gracias!</h3></br>
+	<h4 class="informacionCarrito">SE REGISTRO EL PAGO CON EXITO</h4>
+	<table>
+		<tbody id="aviso">
+			<tr>
+			</tr>
+		</tbody>
+	</table>
+	<a href="#" rel="modal:close"></a>
+</div>
+<footer>
+	<div class="footer">
+		<ul>
+			<li><a href="">Contactános</a></li>
+			<li><a href="">Métodos de Envío</a></li>
+			<li><a href="">Cambios y Devoluciones</a></li>
+			<li><a href="">Políticas de Privacidad</a></li>
+			<li><a href="">Términos y Condiciones</a></li>
+			<li><a href="">Preguntas Frecuentes</a></li>
+		</ul>
+	</div>
+</footer>
+<script src="js/usuario.js"></script>
+<script src="js/pago.js"></script>
+<script src="js/animaciones.js"></script>
+<script src="js/funciones.js"></script>
+</body>
+</html>

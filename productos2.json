@@ -1,0 +1,44 @@
+{
+    "productos":[
+        {
+            "id": 0,
+            "nombre": "Salad",
+            "talle": "Talle L",
+            "precio": 2300,
+            "img1": "media/1salad.png",
+            "img2": "media/2salad.png"
+        },
+        {
+            "id": 1,
+            "nombre": "Mac DeMarco",
+            "talle": "Talle XL",
+            "precio": 1900,
+            "img1": "media/1mac.png",
+            "img2": "media/2mac.png"
+        },
+        {
+            "id": 2,
+            "nombre": "China",
+            "talle": "Talle L",
+            "precio": 2000,
+            "img1": "media/1china.png",
+            "img2": "media/2china.png"
+        },
+        {
+            "id": 3,
+            "nombre": "Gorra China",
+            "talle": "Talle Unico",
+            "precio": 1400,
+            "img1": "media/1gorrablanca.png",
+            "img2": ""
+        },
+        {
+            "id": 4,
+            "nombre": "Gorra Salad",
+            "talle": "Talle Unico",
+            "precio": 1400,
+            "img1": "media/2gorrablanca.png",
+            "img2": ""
+        }
+    ]
+}
