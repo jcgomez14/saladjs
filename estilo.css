@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Roboto:wght@100;700&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+    color: black;
+}
+nav{
+    background-color: white;
+}
+.header ul{
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+ul{
+    align-items: center;
+}
+
+.logo{
+    margin-right: auto;
+    padding: 5px;
+}
+
+.carrito{
+    margin-left: auto;
+    padding: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    
+}
+
+.index{
+    font-family: 'Pushster', cursive;
+    font-weight: 700;
+    font-size: 250%;
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.texto{
+    font-family: 'Pushster', cursive;
+    font-weight: 700;
+    font-size: 500%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+
+.productosMain{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 1px -1px 10px silver;
+}
+
+.productos{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.titulo{
+    padding: 10px;
+    font-family: 'Pushster', cursive;
+    font-weight: 700;
+    font-size: 80px;
+    padding-left: 20px;
+}
+
+.informacion{
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.footer ul{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    justify-items: center;
+    list-style: none;
+    padding-top: 10px;
+}
+
+
+.comprar{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.btn{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 8px;
+    box-shadow: 1px -1px 10px silver;
+    border: none;
+    outline:none;
+}
+
+
+.btnCompra{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 8px;
+    box-shadow: 1px -1px 10px silver;
+    border: none;
+    outline:none;
+}
+
+.btnCarro{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 8px;
+    box-shadow: 1px -1px 10px silver;
+    border: none;
+    outline:none;
+}
+
+.btnDelete{
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+    outline:none;
+}
+
+.btnPagar{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Robot', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 8px;
+    box-shadow: 1px -1px 10px silver;
+    border: none;
+    outline:none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.msjCompra{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.form{
+    display: flex;
+    padding: 10px;
+}
+
+input {
+    margin-left: 20px;
+    border-radius: 8px;
+    width: 400px;
+    border: none;
+    outline: none;
+    background-color: silver;
+}
+
+.tituloCarrito{
+    padding: 10px;
+    font-family: 'Pushster', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.informacionCarrito{
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+    margin: 10px;
+    font-size: 20px;
+}
