@@ -8,7 +8,7 @@ let misProductos;
 
 function obtenerProductos() {
     
-	$.get("/productos2.json", (respuesta, estado) => {
+	$.get("./productos2.json", (respuesta, estado) => {
         misProductos = respuesta.productos ;
         mostrarProductos(misProductos);
 	});
