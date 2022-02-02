@@ -84,7 +84,7 @@ function printCarrito(array){
     });
         $("#carrito").append(`
         <td><h3 class="tituloCarrito">$${total.toFixed(2)} </h3></th>
-        <td> <a href="../pago.html"> <button id="" class="btnPagar">PAGAR</button> </a> </th>
+        <td> <a href="./pago.html"> <button id="" class="btnPagar">PAGAR</button> </a> </th>
         `
         );
 
